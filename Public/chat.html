@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/chat.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messenger</title>
+  </head>
+  <body>
+    <div class="mnko"></div>
+    <div class="box">
+      <form>
+        <input type="text" name="text" class="cm1" required autofocus />
+        <input type="submit" value="Send" class="cm2" name="mkl" hidden/>
+        <label for="mkl" class="cm3"><i class="material-icons">send</i></label>
+      </form>
+    </div>
+  </body>
+  <script src="js/socket.io.min.js"></script>
+  <script src="js/chat.js"></script>
+</html>
